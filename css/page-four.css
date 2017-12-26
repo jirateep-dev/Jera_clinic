@@ -1,3 +1,19 @@
 #page4-img1, #page4-img2, #page4-img3{
 	width: 100%;
 }
+
+#contact{
+	font-family: "Kanit";
+	background: #26B194;
+	border-color: #FFFFFF;
+	float: right;
+	margin-right: 5%;
+	font-size: 1.5em;
+	margin-bottom: 200px;
+	border-radius: 10px;
+}
+
+@font-face{
+	font-family: "Kanit";
+	src: url('../font/Kanit-2/Kanit-Regular.ttf') format('truetype');
+}
