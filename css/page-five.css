@@ -14,3 +14,17 @@
 #detail1{
 	text-align: left;
 }
+
+#text-page5{
+	color: #FFFFFF;
+}
+
+#font-page5{
+	color: #4A4A4A;
+}
+
+@font-face{
+	font-family: "Kanit";
+	src: url('../font/Kanit-2/Kanit-Regular.ttf') format('truetype');
+}
+

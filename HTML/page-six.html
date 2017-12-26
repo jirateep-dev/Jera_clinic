@@ -16,15 +16,16 @@
     <!-- Page style -->
     <link rel="stylesheet" type="text/css" href="..\css\navbar.css">
     <link rel="stylesheet" type="text/css" href="..\css\footage.css">
+    <link rel="stylesheet" type="text/css" href="..\css\page-six.css">
 
 </head>
 
 <body>
 
     <nav class="navbar">
-        <div class="navbar-header">
+        <!-- <div class="navbar-header">
           <img src="..\img\LOGO\JERA Cloud LOGO-01.png" class="img-responsive" alt="Jera clinic">
-        </div>
+        </div> -->
         <div class="container-nav">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="Main.html">หน้าแรก</a></li>
@@ -38,9 +39,41 @@
         </div>
     </nav>
 
-    <div class="container">
-
-        
+    <div class="container" id="content-page6">
+        <div class="head-page6">ติดต่อเรา</div>
+        <div class="container" id="detail-page6">
+            <div class="hint-page6">กรุณากรอกข้อมูลเพื่อนำเสนอแพคเกจที่เหมาะสม</div>
+            <div class="text-name">ชื่อ - นามสกุล</div>
+            <input type="text" class="form-control" id="name">
+            <div class="text-name">อีเมลล์*</div>
+            <input type="email" class="form-control" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+            <div class="text-name">เบอร์โทรศัพท์ติดต่อกลับ</div>
+            <input type="text" class="form-control" id="phone">
+            <div class="text-name">จุดประสงค์การใช้โปรแกรม</div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">พัฒนาระบบบริหารจัดการคลินิก</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">ต้องการระบบจัดการคลังสินค้า</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">เปิดคลินิกใหม่ยังไม่มีระบบจัดการ</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">พัฒนาภาพลักษณ์การทำงานให้ทันสมัย</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">เพิ่มยอดขาย/รักษาฐานลูกค้าเดิม</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">อื่นๆ โปรดระบุ</label>
+              <input type="text" class="form-control" id="other">
+            </div>
+            <div class="text-name">ข้อความเพิ่มเติมถึงบริษัท</div>
+            <textarea class="form-control" rows="10" id="comment"></textarea>
+            <img src="..\img\pic\robot.jpg" class="img-responsive" id="robot">
+            <button class="btn btn-info" id="send-data">ส่งข้อมูล</button>
+        </div>
 
     </div>
 

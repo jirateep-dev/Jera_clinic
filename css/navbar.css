@@ -1,5 +1,7 @@
 .navbar {
 	margin: 0;
+	font-family: Kanit;
+	border-color: #D5D5D5;
 }
 .navbar-right{
 	margin-right: 10px;
@@ -26,3 +28,11 @@
 	padding: 0;
 }
 
+h1,h2,h3{
+	font-family: Kanit;
+}
+
+@font-face{
+	font-family: "Kanit";
+	src: url('../font/Kanit-2/Kanit-Regular.ttf') format('truetype');
+}
