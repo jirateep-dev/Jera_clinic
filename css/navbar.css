@@ -1,0 +1,28 @@
+.navbar {
+	margin: 0;
+}
+.navbar-right{
+	margin-right: 10px;
+	font-size: 1.2em;
+}
+.navbar-header>img{
+	max-width: 100%;
+    height: 60px;
+}
+.navbar-nav>li>a{
+	color: #000000;
+}
+.navbar-nav>li>a:focus {
+	color: #26B194;
+}
+.navbar-btn{
+	background: #26B194;
+	border-color: #FFFFFF;
+}
+
+.container{
+	text-align: center;
+	width: 100%;
+	padding: 0;
+}
+
