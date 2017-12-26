@@ -1,0 +1,16 @@
+#page5-img1{
+	width: 100%;
+}
+
+#page5-img2, #page5-img3, #page5-img4{
+	width: 50%;
+	margin: auto;
+	margin-left: 60%;
+}
+#page5-img4{
+	margin-bottom: 100px;
+}
+
+#detail1{
+	text-align: left;
+}
