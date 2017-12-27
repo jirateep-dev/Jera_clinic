@@ -1,4 +1,84 @@
-#page3-img1, #page3-img2, 
-#page3-img3, #page3-img4{
-	width: 100%;
+.container-page3{
+	font-family: "Kanit";
+	text-align: left;
+}
+
+#head-page3, #head2-page3{
+	font-size: 6.6em;
+	margin-left: 7%;
+}
+
+#head-page3{
+	color: #4A4A4A;
+}
+
+#head2-page3{
+	margin-left: 30px;
+	color: #26B194;
+}
+
+#content-page3{
+	font-family: "Kanit-Light" !important;
+	font-size: 4.3em;
+	color: #4A4A4A;
+	margin-left: 7%;
+}
+
+#item{
+	margin-top: 30px;
+	font-family: "Kanit-Light" !important;
+	margin-left: 30%;
+	font-size: 4.0em;
+	color: #26B194;
+}
+
+#img-item{
+	margin-top: 30px;
+	float: right;
+	width: 50%;
+}
+
+#detail-item-head{
+	font-family: "Kanit-Light" !important;
+	margin-top: 10%;
+	margin-left: 6%;
+	color: #4A4A4A;
+	font-size: 3em;
+}
+#detail-item{
+	color: #4A4A4A;
+	font-family: "Kanit-Thin" !important;
+	font-size: 2.5em;
+	margin-left: 12%;
+}
+#price-item{
+	font-family: "Kanit-Light" !important;
+	color: #F9A831;
+	font-size: 3em;
+	margin-left: 6%;
+	padding-bottom: 150px;
+}
+
+p {
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: 30px;
+	width: 85%;
+    border-bottom: 3px dotted #626262;
+    text-decoration: none;
+}
+
+@font-face{
+	font-family: "Kanit";
+	src: url('../font/Kanit-2/Kanit-Regular.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: "Kanit-Light";
+	src: url('../font/Kanit-2/Kanit-Light.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: "Kanit-Thin";
+	src: url('../font/Kanit-2/Kanit-Thin.ttf') format('truetype');
 }
