@@ -1,5 +1,65 @@
-#page4-img1, #page4-img2, #page4-img3{
+/*#page4-img1, #page4-img2, #page4-img3{
 	width: 100%;
+}*/
+.container-page4{
+	font-family: "Kanit-Light" !important;
+}
+.table{
+	width: 90%;
+	margin-left: 5%;
+}
+
+th{
+	text-align: center;
+	font-size: 2.5em;
+}
+td{
+	text-align: left;
+	font-size: 2.5em;
+}
+
+#col-1{
+	color: #15901A;
+}
+#col-2{
+	color: #6A3E90;
+}
+#col-3{
+	color: #F9A731;
+}
+
+.table>tbody>tr>td{
+	padding-left: 40px !important;
+}
+
+#report-detail{
+	margin-left: 50px;
+	font-size: 0.9em;
+}
+
+#package-label{
+	padding-top: 50px;
+	font-size: 3.5em;
+	color: #26B194;
+	margin-left: 10%;
+	padding-bottom: 20px;
+}
+#end1-page4{
+	font-size: 2.5em;
+	color: #F9A832;
+}
+
+#end2-page4{
+	margin-left: 6%;
+	font-size: 2.5em;
+	color: #1AAE8E;
+	text-align: center;
+}
+.container-end4{
+	margin-top: 50px;
+	margin-right: 11%;
+	text-align: right;
+	padding-bottom: 60px;
 }
 
 #contact{
@@ -8,12 +68,18 @@
 	border-color: #FFFFFF;
 	float: right;
 	margin-right: 5%;
-	font-size: 1.5em;
+	font-size: 1.8em;
 	margin-bottom: 200px;
 	border-radius: 10px;
 }
 
+
 @font-face{
 	font-family: "Kanit";
 	src: url('../font/Kanit-2/Kanit-Regular.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: "Kanit-Light";
+	src: url('../font/Kanit-2/Kanit-Light.ttf') format('truetype');
 }
