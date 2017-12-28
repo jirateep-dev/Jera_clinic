@@ -10,6 +10,7 @@
 	position: relative;
 }
 .con1-main{
+	width: 55%;
 	position: absolute;
 	text-align: left;
 	color: #4A4A4A;
@@ -29,7 +30,7 @@
 	text-align: center;
 }
 .con2-feat1{
-	left: 7%;
+	width: 50%;
 	top: 13%;
 }
 .con2-feat2{
@@ -48,10 +49,10 @@
 }
 
 .con3-feat1{
+	width: 50%;
 	position: absolute;
 	text-align: center;
 	top: 30%;
-	left: 5%;
 }
 
 .con4-feat1, .con4-feat2{
@@ -64,7 +65,7 @@
 	top: 10%;
 }
 .con4-feat2{
-	left: 15%;
+	width: 50%;
 	top: 63%;
 }
 
@@ -79,6 +80,7 @@
 	position: absolute;
 	top: 12%;
 	left: 5%;
+	width: 50%;
 }
 @font-face{
 	font-family: "Kanit";
