@@ -18,13 +18,58 @@ td{
 	font-size: 2.5em;
 }
 
+.glyphicon-ok-circle{
+	color: #F9A731;
+}
+
+.container-price{
+	width: 100%;
+	position: relative;
+}
+
+.content-price{
+	text-align: left;
+	position: absolute;
+	left: 10%;
+	top: 35%;
+}
+
+#label-content1{
+	color: #26B194;
+	font-size: 6.5em;
+}
+
+#label-content2{
+	font-family: "Kanit-Thin" !important;
+	font-size: 3.7em;
+}
+
+.detail-price{
+	position: absolute;
+	text-align: left;
+	left: 60%;
+	top: 23%;
+}
+
+#label-detail{
+	font-family: "Kanit-Thin" !important;
+	font-size: 3em;
+}
+
+.glyphicon{
+	margin-top: 10%;
+}
+
 #col-1{
+	text-align: center;
 	color: #15901A;
 }
 #col-2{
+	text-align: center;
 	color: #6A3E90;
 }
 #col-3{
+	text-align: center;
 	color: #F9A731;
 }
 
@@ -82,4 +127,9 @@ td{
 @font-face{
 	font-family: "Kanit-Light";
 	src: url('../font/Kanit-2/Kanit-Light.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: "Kanit-Thin";
+	src: url('../font/Kanit-2/Kanit-Thin.ttf') format('truetype');
 }
