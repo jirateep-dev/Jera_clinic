@@ -10,10 +10,12 @@
 	text-align: left;
 }
 #foot1{
+	width: 30%;
 	left: 10%;
 	top: 15%;
 }
 #foot2{
+	width: 30%;
 	left: 45%;
 	top: 15%;
 }
