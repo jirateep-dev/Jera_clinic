@@ -11,13 +11,47 @@ iframe{
 	height: 0;
 }
 
-#head1,#content-img1,#content-img2{
+#head1,#head2,#content-img1,#content-img2{
     width: 100%
 }
 
-/*#content-img1{
-	margin-top: 50px;
-}*/
+.carousel-caption{
+	position: relative;
+	text-align: left;
+	width: 100%;
+}
+
+#cap-head,#cap-head2{
+	font-family: "Kanit";
+	font-size: 5.4em;
+	color: #26B194;
+}
+
+#head-data1{
+	position: absolute;
+	left: 47%;
+	top: 27%;
+}
+
+#head-data2{
+	position: absolute;
+	left: 4%;
+	top: 27%;
+}
+
+#cap-detail{
+	font-family: "Kanit-Light";
+	font-size: 2.4em;
+	color: #000000;
+	margin-top: 30px;
+}
+
+#cap-detail2{
+	font-family: "Kanit-Light";
+	font-size: 4.2em;
+	color: #000000;
+	margin-top: 30px;
+}
 
 #content-img3{
 	margin-top: 150px;
@@ -25,11 +59,6 @@ iframe{
 	height: 500px;
 }
 
-.navbar-center {
-    position: absolute;
-    top: 16%;
-    left: 10%;
-}
 .reference-main{
 	position: relative;
     text-align: center;
@@ -42,10 +71,76 @@ iframe{
     transform: translate(-50%, -50%);
     color: #26B194;
 }
+.refer-per1, .refer-per2, .refer-per3, .refer-per4, .refer-per5{
+	position: absolute;
+	top: 18.5%;
+	width: 18%;
+	text-align: center;
+}
+.refer-per1{
+	left: 6%;
+}
+.refer-per2{
+	left: 23.5%;
+}
+.refer-per3{
+	left: 41%;
+}
+.refer-per4{
+	left: 58.5%;
+}
+.refer-per5{
+	left: 76%;
+}
+
+
+.container-equipment{
+	font-family: "Kanit-Light";
+	width: 100%;
+	position: relative;
+}
+
+.con-eq-body1, .con-eq-body2, .con-eq-body3{
+	position: absolute;
+	font-family: "Kanit-Light" !important;
+	text-align: center;
+	width: 30%;
+	height: 23%;
+}
+
+.con-eq-body1{
+	bottom: 7%;
+}
+.con-eq-body2{
+	left: 35%;
+	bottom: 7%;
+}
+.con-eq-body3{
+	left: 70%;
+	bottom: 5%;
+}
+
+#eq-head{
+	font-size: 3em;
+	color: #26B194;
+}
+
+#eq-body{
+	font-size: 2em;
+}
+
 h1,h2,h3{
-	font-family: Kanit;
+	font-family: "Kanit";
 }
 @font-face{
 	font-family: "Kanit";
 	src: url('../font/Kanit-2/Kanit-Regular.ttf') format('truetype');
+}
+@font-face{
+	font-family: "Kanit-Light";
+	src: url('../font/Kanit-2/Kanit-Light.ttf') format('truetype');
+}
+@font-face{
+	font-family: "Kanit-Thin";
+	src: url('../font/Kanit-2/Kanit-Thin.ttf') format('truetype');
 }

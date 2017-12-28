@@ -2,3 +2,96 @@
 #page2-img4, #page2-img5, #page2-img6{
 	width: 100%;
 }
+.container-page2{
+	font-family: "Kanit-Light" !important;
+}
+.con1-feature{
+	width: 100%;
+	position: relative;
+}
+.con1-main{
+	position: absolute;
+	text-align: left;
+	color: #4A4A4A;
+	left: 12%;
+	top: 20%;
+}
+#main-text1{
+	font-size: 6.5em;
+}
+#main-text2{
+	margin-top: 30px;
+	font-size: 3em;
+}
+
+.con2-feat1, .con2-feat2{
+	position: absolute;
+	text-align: center;
+}
+.con2-feat1{
+	left: 7%;
+	top: 13%;
+}
+.con2-feat2{
+	left: 60%;
+	top: 13%;
+}
+
+#con-text1{
+	color: #26B194;
+	font-size: 4.8em;
+}
+
+#con-text2{
+	font-family: "Kanit-Thin" !important;
+	font-size: 2.8em;
+}
+
+.con3-feat1{
+	position: absolute;
+	text-align: center;
+	top: 30%;
+	left: 5%;
+}
+
+.con4-feat1, .con4-feat2{
+	text-align: center;
+	position: absolute;
+}
+
+.con4-feat1{
+	left: 65%;
+	top: 10%;
+}
+.con4-feat2{
+	left: 15%;
+	top: 63%;
+}
+
+.con5-feat1{
+	text-align: center;
+	position: absolute;
+	top: 35%;
+	left: 55%;
+}
+.con6-feat1{
+	text-align: left;
+	position: absolute;
+	top: 12%;
+	left: 5%;
+}
+@font-face{
+	font-family: "Kanit";
+	src: url('../font/Kanit-2/Kanit-Regular.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: "Kanit-Light";
+	src: url('../font/Kanit-2/Kanit-Light.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: "Kanit-Thin";
+	src: url('../font/Kanit-2/Kanit-Thin.ttf') format('truetype');
+}
+
