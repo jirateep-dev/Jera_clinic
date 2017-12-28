@@ -20,25 +20,31 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="navbar-header">
-          <img src="..\img\LOGO\JERA Cloud LOGO-01.png" class="img-responsive" alt="Jera clinic">
+            <img src="..\img\LOGO\JERA Cloud LOGO-01.png" class="img-responsive" alt="Jera clinic">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+            </button>
         </div>
-        <div class="container-nav">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="Main.html">หน้าแรก</a></li>
-                <li><a href="page-two.html">ฟีเจอร์</a></li>
-                <li><a href="#">แพคเกจเสริม</a></li>
-                <li><a href="page-three.html">อุปกรณ์</a></li>
-                <li><a href="page-four.html">ราคา</a></li>
-                <li><a href="page-five.html">ดาวน์โหลด</a></li>
-                <button onclick="window.location.href='page-six.html'" class="btn btn-success navbar-btn">ติดต่อเรา</button>
-            </ul>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <div class="container-nav">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="Main.html">หน้าแรก</a></li>
+                    <li><a href="page-two.html">ฟีเจอร์</a></li>
+                    <li><a href="#">แพคเกจเสริม</a></li>
+                    <li><a href="page-three.html">อุปกรณ์</a></li>
+                    <li><a href="page-four.html">ราคา</a></li>
+                    <li><a href="page-five.html">ดาวน์โหลด</a></li>
+                    <li><button onclick="window.location.href='page-six.html'" class="btn btn-success navbar-btn">ติดต่อเรา</button></li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <div class="container">
-        
 
+    <div class="container">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
             <!-- Wrapper for slides -->

@@ -6,6 +6,7 @@
 	color: #FFFFFF;
 }
 #foot1, #foot2{
+	font-family: "Kanit-Light";
 	position: absolute;
 	text-align: left;
 }
@@ -30,4 +31,10 @@
 @font-face{
 	font-family: "Kanit-Light";
 	src: url('../font/Kanit-2/Kanit-Light.ttf') format('truetype');
+}
+
+@media screen and (max-width: 750px){
+	#foot1, #foot2{
+		font-size: 0.4em;
+	}
 }

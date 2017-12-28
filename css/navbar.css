@@ -20,8 +20,8 @@
 	font-size: 1.2em;
 }
 .navbar-header>img{
-	max-width: 100%;
     height: 60px;
+    max-width: 100%;
 }
 .navbar-nav>li>a{
 	color: #000000;
@@ -41,10 +41,17 @@
 }
 
 h1,h2,h3{
-	font-family: Kanit;
+	font-family: "Kanit";
 }
 
 @font-face{
 	font-family: "Kanit";
 	src: url('../font/Kanit-2/Kanit-Regular.ttf') format('truetype');
+}
+
+@media screen and (max-width: 750px){
+	.navbar-header>img{
+	    width: 25%;
+	    display: inline-block;
+	}
 }

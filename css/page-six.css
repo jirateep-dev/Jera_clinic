@@ -27,8 +27,9 @@
 }
 
 #content-page6 {
-	padding: 200px;
+	padding: 20%;
 	padding-top: 0px;
+	margin-top: 3%;
 }
 
 #detail-page6{
@@ -69,4 +70,12 @@ label{
 @font-face{
 	font-family: "Kanit";
 	src: url('../font/Kanit-2/Kanit-Regular.ttf') format('truetype');
+}
+
+@media screen and (max-width: 750px){
+	#content-page6 {
+		padding: 5%;
+		padding-top: 0px;
+		margin-top: 3%;
+	}
 }

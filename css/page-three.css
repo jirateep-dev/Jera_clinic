@@ -1,6 +1,18 @@
 .container-page3{
 	font-family: "Kanit";
 	text-align: left;
+	margin-top: 6%;
+}
+
+.container-items{
+	position: relative;
+}
+.container-dt{
+	position: absolute;
+	top: 0;
+	left: 49%;
+	width: 50%;
+	bottom: 15%;
 }
 
 #head-page3, #head2-page3{
@@ -33,9 +45,9 @@
 }
 
 #img-item{
-	margin-top: 30px;
-	float: right;
-	width: 50%;
+	/*margin-top: 30px;*/
+	/*float: right;*/
+	width: 100%;
 }
 
 #detail-item-head{
@@ -81,4 +93,30 @@ p {
 @font-face{
 	font-family: "Kanit-Thin";
 	src: url('../font/Kanit-2/Kanit-Thin.ttf') format('truetype');
+}
+
+@media screen and (max-width: 750px){
+	.container-page3{
+		margin-top: 10%;
+	}
+	#head-page3, #head2-page3{
+		font-size: 3.0em;
+	}
+	#content-page3{
+		font-size: 2em;
+	}
+
+	#item{
+		font-size: 1.5em;
+	}
+	#detail-item-head{
+		font-size: 1.5em;
+	}
+	#detail-item{
+		font-size: 1em;
+	}
+	#price-item{
+		font-size: 1.5em;
+	}
+
 }
