@@ -97,7 +97,27 @@
 	src: url('../font/Kanit-2/Kanit-Thin.ttf') format('truetype');
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 576px){
+	.container-page2{
+		margin-top: 10%;
+	}
+	#main-text1{
+		font-size: 1.6em;
+	}
+	#main-text2{
+		font-size: 1em;
+	}
+
+	#con-text1{
+		font-size: 1.4em;
+	}
+
+	#con-text2{
+		font-size: 0.85em;
+	}
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px){
 	#main-text1{
 		font-size: 2.3em;
 	}
@@ -111,5 +131,25 @@
 
 	#con-text2{
 		font-size: 1em;
+	}
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px){
+	.container-page2{
+		margin-top: 10%;
+	}
+	#main-text1{
+		font-size: 4em;
+	}
+	#main-text2{
+		font-size: 2em;
+	}
+
+	#con-text1{
+		font-size: 3em;
+	}
+
+	#con-text2{
+		font-size: 1.7em;
 	}
 }

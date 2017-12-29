@@ -72,7 +72,28 @@ label{
 	src: url('../font/Kanit-2/Kanit-Regular.ttf') format('truetype');
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 576px){
+	.head-page6{
+		font-size: 2.5em;
+	}
+	.hint-page6{
+		font-size: 1.1em;
+	}	
+	.radio>label{
+		font-size: 1em;
+	}
+	.text-name{
+		font-size: 1.1em;
+		margin-top: 25px;
+	}
+	#content-page6 {
+		padding: 5%;
+		padding-top: 0px;
+		margin-top: 3%;
+	}
+}
+
+@media screen and (min-width: 577px)and (max-width: 992px){
 	#content-page6 {
 		padding: 5%;
 		padding-top: 0px;

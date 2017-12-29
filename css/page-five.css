@@ -38,7 +38,7 @@
 	src: url('../font/Kanit-2/Kanit-Regular.ttf') format('truetype');
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 576px){
 	#page5-img1{
 		margin-top: 6%;
 	}
@@ -47,6 +47,31 @@
 	}
 	#font-page5{
 		font-size: 0.8em;
+	}
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+	#page5-img1{
+		margin-top: 6%;
+	}
+	#text-h{
+		font-size: 1em;
+	}
+	#font-page5{
+		font-size: 0.8em;
+	}
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px){
+	#page5-img1{
+		margin-top: 6%;
+	}
+	#text-h{
+		font-size: 2em;
+	}
+	#font-page5{
+		font-size: 1.5em;
 	}
 
 }

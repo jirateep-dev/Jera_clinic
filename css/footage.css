@@ -32,9 +32,18 @@
 	font-family: "Kanit-Light";
 	src: url('../font/Kanit-2/Kanit-Light.ttf') format('truetype');
 }
-
-@media screen and (max-width: 992px){
+@media screen and (max-width: 576px){
 	#foot1, #foot2{
 		font-size: 0.4em;
+	}
+}
+@media screen and (min-width: 577px) and (max-width: 992px){
+	#foot1, #foot2{
+		font-size: 0.4em;
+	}
+}
+@media screen and (min-width: 993px) and (max-width: 1200px){
+	#foot1, #foot2{
+		font-size: 0.85em;
 	}
 }

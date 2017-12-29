@@ -148,7 +148,32 @@ h1,h2,h3{
 	src: url('../font/Kanit-2/Kanit-Thin.ttf') format('truetype');
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 576px){
+	#head1,#head2,#content-img1,#content-img2{
+	    margin-top: 5%;
+	}
+	#cap-head,#cap-head2{
+		font-size: 1.9em;
+	}
+	#cap-detail{
+		font-size: 0.9em;
+	}
+	#cap-detail2{
+		font-size: 0.9em;
+	}
+	#eq-head{
+		font-size: 1.2em;
+	}
+
+	#eq-body{
+		font-size: 0.6em;
+	}
+	.reference-main{
+	    margin-bottom: 10%;
+	}
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px){
 	#head1,#head2,#content-img1,#content-img2{
 	    margin-top: 5%;
 	}
@@ -167,6 +192,30 @@ h1,h2,h3{
 
 	#eq-body{
 		font-size: 0.9em;
+	}
+	.reference-main{
+	    margin-bottom: 10%;
+	}
+}
+@media screen and (min-width: 993px) and (max-width: 1200px){
+	#head1,#head2,#content-img1,#content-img2{
+	    margin-top: 5%;
+	}
+	#cap-head,#cap-head2{
+		font-size: 3.5em;
+	}
+	#cap-detail{
+		font-size: 1.8em;
+	}
+	#cap-detail2{
+		font-size: 2.7em;
+	}
+	#eq-head{
+		font-size: 2.7em;
+	}
+
+	#eq-body{
+		font-size: 1.3em;
 	}
 	.reference-main{
 	    margin-bottom: 10%;

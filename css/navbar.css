@@ -49,7 +49,7 @@ h1,h2,h3{
 	src: url('../font/Kanit-2/Kanit-Regular.ttf') format('truetype');
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1200px){
 	.navbar-header>img{
 	    width: 25%;
 	    display: inline-block;
