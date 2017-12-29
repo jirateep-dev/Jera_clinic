@@ -135,7 +135,7 @@ td{
 	src: url('../font/Kanit-2/Kanit-Thin.ttf') format('truetype');
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 992px){
 	th{
 		font-size: 1em;
 	}

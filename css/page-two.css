@@ -97,7 +97,7 @@
 	src: url('../font/Kanit-2/Kanit-Thin.ttf') format('truetype');
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 992px){
 	#main-text1{
 		font-size: 2.3em;
 	}

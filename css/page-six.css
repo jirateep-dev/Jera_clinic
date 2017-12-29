@@ -72,7 +72,7 @@ label{
 	src: url('../font/Kanit-2/Kanit-Regular.ttf') format('truetype');
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 992px){
 	#content-page6 {
 		padding: 5%;
 		padding-top: 0px;

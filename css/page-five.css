@@ -38,7 +38,7 @@
 	src: url('../font/Kanit-2/Kanit-Regular.ttf') format('truetype');
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 992px){
 	#page5-img1{
 		margin-top: 6%;
 	}

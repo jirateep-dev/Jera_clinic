@@ -148,7 +148,7 @@ h1,h2,h3{
 	src: url('../font/Kanit-2/Kanit-Thin.ttf') format('truetype');
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 992px){
 	#head1,#head2,#content-img1,#content-img2{
 	    margin-top: 5%;
 	}
